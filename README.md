@@ -5,7 +5,7 @@
 
 ### YouTube
 * [Spring Boot Caching](https://youtube.com)
-* [YouTube Channel](http://www.youtube.com/channel/UCGXKgco5dTvXBClcAPY1iNg)
+* [YouTube Channel](https://www.youtube.com/@jesusmatiz35)
 
 ### Creador
 * [Jesús Matiz](https://www.jesusmatiz.com)
