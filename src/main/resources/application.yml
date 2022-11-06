@@ -1,0 +1,27 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /v1.0/
+  error:
+    include-stacktrace: never
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3606/springcache
+    username: root
+    password: tutorial.2020
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+      maximum-pool-size: 5
+    tomcat:
+      test-on-borrow: true
+      validation-query: SELECT 1
+      validation-interval: 60000
+  jpa:
+    hibernate:
+      ddl-auto: none
+      dialect: org.hibernate.dialect.MySQL5Dialect
+  show-sql: true
+
